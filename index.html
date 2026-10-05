@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Q1 Project</title>
+        <style>
+            body {
+                background-color: #eaf6fb;
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+
+            .topbar {
+                background-color: #4fa8d8;
+                padding: 15px;
+            }
+
+            .topbar a {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+
+            .intro img {
+                width: 90px;
+                height: 90px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+            h1 {
+                color: #1a6fa3;
+            }
+
+            .section-title {
+                background-color: #a9d6ec;
+                color: #1a6fa3;
+                padding: 10px;
+                margin-top: 30px;
+            }
+
+            .content {
+                width: 80%;
+                margin: auto;
+                text-align: left;
+                padding: 15px 0;
+            }
+
+            .content img {
+                width: 200px;
+            }
+
+            form label {
+                font-weight: bold;
+                display: block;
+                margin-top: 12px;
+            }
+
+            input[type="text"], input[type="email"], select, textarea {
+                width: 95%;
+                padding: 6px;
+                margin-top: 5px;
+            }
+
+            input[type="submit"] {
+                background-color: #4fa8d8;
+                color: white;
+                border: none;
+                padding: 10px 25px;
+                margin-top: 15px;
+                border-radius: 4px;
+            }
+
+            .bottombar {
+                background-color: #4fa8d8;
+                color: white;
+                padding: 10px;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="topbar">
+            <a href="#about">About Me</a>
+            <a href="#works">My Works</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+
+        <div class="intro">
+            <img src="https://scontent-mnl3-3.xx.fbcdn.net/v/t1.15752-9/624073458_25704222125899017_7552935806654025828_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=JlV3qyiWB3EQ7kNvwF4OAD9&_nc_oc=AdqhSIbva3EyADtI11FrtvetMkjSORotxg1mxlliK086F57_4yWVOW3DEcoKKwBM_0c&_nc_zt=23&_nc_ht=scontent-mnl3-3.xx&_nc_ss=7baaf&oh=03_Q7cD6QEBA1Od4lKutAUv22vLBg2BdH96Ao1wGlCwhS4NWcRrNQ&oe=6ADAF00E" alt="Profile Picture">
+            <h1>Hello, I'm <span>Arkin Kaniel Estacio</span></h1>
+            <p>Aspiring Web Developer</p>
+        </div>
+
+        <div class="section-title" id="about">About Me</div>
+        <div class="content">
+            <p>I'm Arkin and I am a student. My hobbies are playing video games, sports, and listening to music,
+            and my new hobby is web development. I am a rookie in web development, so I build simple websites
+            using HTML and CSS.</p>
+        </div>
+
+        <div class="section-title" id="works">My Works</div>
+        <div class="content">
+            <div class="work-item">
+                <img src="image (2).png" alt="Rate a Movie Project"><br>
+                <p>Movie Rating Form</p>
+                <ul>
+                    <li>HTML Forms Project</li>
+                    <li>Form with Ratings</li>
+                    <li>Textarea For Reviews</li>
+                </ul>
+            </div>
+
+            <div class="work-item">
+                <img src="image.png" alt="Spotify Artist Project"><br>
+                <p>My Favorite Spotify Artist</p>
+                <ol>
+                    <li>HTML Forms Project</li>
+                    <li>Profile Card Design</li>
+                    <li>Styled With External CSS</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="section-title" id="contact">Contact Me</div>
+        <div class="content">
+            <form>
+                <label>Your Name:</label>
+                <input type="text" placeholder="Arkin Kaniel Estacio">
+
+                <label>Your Email:</label>
+                <input type="email" placeholder="estacio.ake@obmontessori.edu.ph">
+
+                <label>How did you find me?</label>
+                <input type="radio" name="found"> Instagram
+                <input type="radio" name="found"> TikTok
+                <input type="radio" name="found"> Friends
+
+                <label>Interested In:</label>
+                <input type="checkbox"> Web Design
+                <input type="checkbox"> Sports
+                <input type="checkbox"> Video Games
+
+                <label>Rate my Portfolio:</label>
+                <select>
+                    <option value="">-- Select Rating --</option>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="2">2 - Below Average</option>
+                    <option value="1">1 - Poor</option>
+                </select>
+
+                <label>Any Feedback?</label>
+                <textarea rows="4" placeholder="Feedback here..."></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </body>
+</html>
